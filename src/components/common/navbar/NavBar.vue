@@ -9,7 +9,6 @@
     <div class="right">
       <slot name="right"></slot>
     </div>
-
   </div>
 </template>
 

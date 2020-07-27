@@ -5,6 +5,8 @@ const d = a + b + c + "."
 
 const nk = "n3"
 
+const baseURL = "http://" + d + "185.210:8000/api/" + nk
+
 export default {
-  baseURL: "http://" + d + "185.210:8000/api/" + nk,
+  baseURL,
 }
